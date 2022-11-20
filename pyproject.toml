@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pjt"
-version = "0.0.1"
+version = "0.0.0"
 description = "pjt - a quick navigation tool for the PyPI packages."
 license = "MIT"
 authors = ["Volodymyr Pivoshenko <volodymyr.pivoshenko@gmail.com>"]
