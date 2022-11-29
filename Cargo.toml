@@ -1,0 +1,9 @@
+[package]
+name = "pjt"
+version = "0.1.0"
+authors = ["Volodymyr Pivoshenko <volodymyr.pivoshenko@gmail.com>"]
+edition = "2021"
+rust-version = "1.65"
+description = ""
+
+[dependencies]
