@@ -83,66 +83,13 @@ and provide the following information:
 
 ### Dependencies
 
-We use `poetry` to manage the [dependencies][poetry].
-
-To install them and activate `virtualenv` you will need to run commands:
-
-```shell
-poetry install --no-cache
-poetry shell
-```
-
 ### Code Formatters
-
-- [`isort`][isort]
-- [`black`][black]
-
-To format code you will need to run command:
-
-```shell
-poetry format
-```
 
 ### Linters
 
-- [`flake8 | wemake-python-styleguide`][flake8]
-- [`mypy`][mypy]
-- [`yamllint`][yamllint]
-- [`dotenv-linter`][dotenv_linter]
-
-To lint code you will need to run command:
-
-```shell
-poetry lint
-```
-
 ### Tests
 
-- [`pytest`][pytest]
-- [`xdoctest`][xdoctest]
-
-To run unit tests:
-
-```shell
-poetry tests
-```
-
 ### Pre-Commit
-
-To make sure that you don't accidentally commit code that does not follow the coding style, you can
-install a [`pre-commit`][pre_commit] hook that will check that everything is in order:
-
-```shell
-poetry run pre-commit install
-```
-
-You can also run it anytime using:
-
-```shell
-poetry run pre-commit run --all-files
-```
-
-Your code must always be accompanied by corresponding tests, if tests are not present your code will not be merged.
 
 ### Commits
 
@@ -159,8 +106,6 @@ As a standard of commit messages we are using **[conventional commits][commits]*
 > the branch is up-to-date prior to merging your PR if changes have conflicts. All pull requests, unless otherwise
 > instructed, need to be first accepted into the `main` branch.
 
-[black]: https://github.com/psf/black
-
 [bug_report]: https://github.com/volopivoshenko/pjt/blob/main/.github/ISSUE_TEMPLATE/bug_report.md
 
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
@@ -169,26 +114,10 @@ As a standard of commit messages we are using **[conventional commits][commits]*
 
 [gist]: https://gist.github.com
 
-[isort]: https://github.com/PyCQA/isort
-
 [issues]: https://github.com/volopivoshenko/pjt/issues
-
-[dotenv_linter]: https://github.com/wemake-services/dotenv-linter
-
-[mypy]: https://github.com/python/mypy
-
-[poetry]: https://github.com/python-poetry/poetry
 
 [pre_commit]: https://pre-commit.com
 
 [pull_request_template]: https://github.com/volopivoshenko/pjt/blob/main/.github/PULL_REQUEST_TEMPLATE.md
 
-[pytest]: https://github.com/pytest-dev/pytest
-
 [rebased]: https://docs.github.com/en/free-pro-team@latest/github/using-git/about-git-rebase
-
-[flake8]: https://github.com/wemake-services/wemake-python-styleguide
-
-[xdoctest]: https://github.com/Erotemic/xdoctest
-
-[yamllint]: https://github.com/adrienverge/yamllint
